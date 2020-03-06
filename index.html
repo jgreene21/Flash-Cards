@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <title>Flash Cards</title>
+  </head>
+  <section class="flash cards">
+    <div class="intro">
+      <h1>Javascript Flashcards</h1>
+        <h2> Learn Javascript basics with the help of these interactive flashcards.</h2>
+        <h2> Just click on a card to get the answer on the back.</h2>
+  <body>
+    <div container>
+    <div class="row">
+      <div class="col-sm-6">
+        <div id= "card1q" class="card">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript Variable Types</h5>
+            <p class="card-text">What is var?</p>
+            <a id= "flip-card" href="#" class="btn btn-primary">See Answer</a>
+          <div id= "card1a" class="card-body hide">
+            <p class="card-text">The most common variable. It can be 
+              <br>reassigned but only accessed within a 
+              <br>function. Variables defined with var 
+              <br>move to the top when the code is executed.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div id= "card2q" class="card">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript Variable Types</h5>
+            <p class="card-text">What is const?</p>
+            <a id= "flip-card2" href="#" class="btn btn-primary">See Answer</a>
+        <div id= "card2a" class="card-body hide">
+            <p class="card-text">Can not be reassigned and not accessible 
+              <br>before they appear within the code.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div id= "card3q" class="card">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript Variable Types</h5>
+            <p class="card-text">What is let?</p>
+            <a id= "flip-card3" href="#" class="btn btn-primary">See Answer</a>
+        <div id= "card3a" class="card-body hide">
+            <p class="card-text">Similar to const, the let variable can be 
+              <br>reassigned but not re-declared.</p>
+    </div>
+  </div>
+
+  </section>
+  <script src="scripts.js"></script>
+  </body>
+</html>
